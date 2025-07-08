@@ -68,13 +68,13 @@ export default function ForgotPasswordView() {
         <input
           type="submit"
           value='Enviar Instrucciones'
-          className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg px-5 py-2.5 text-center w-full text-lg cursor-pointer font-sans"
+          className="text-white bg-gray-900 hover:bg-gray-950 font-medium rounded-lg px-5 py-2.5 text-center w-full text-lg cursor-pointer font-sans"
         />
       </form>
 
       <nav className="mt-5 flex flex-col space-y-3">
-        <Link to={'/auth/register'} className="text-center text-gray-600 font-normal">¿No tienes Cuenta? Crea una</Link>
-        <Link to={'/auth/forgot-password'} className="text-center text-gray-600 font-normal">¿Olvidaste tu contraseña? Restablecer</Link>
+        <Link to={'/auth/register'} className="text-center text-gray-900 font-normal">¿No tienes Cuenta? Crea una</Link>
+        <Link to={'/auth/forgot-password'} className="text-center text-gray-900 font-normal">¿Olvidaste tu contraseña? Restablecer</Link>
       </nav>
     </>
   )
